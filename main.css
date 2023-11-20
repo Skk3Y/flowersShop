@@ -1,8 +1,8 @@
 :root {
-  --text-primary: #FFFFFF;
-  --bgc: #3B181E;
-  --max-w: 1920px;
-  --padding-lg: 56px;
+    --text-primary: #FFFFFF;
+    --bgc: #3B181E;
+    --max-w: 1920px;
+    --padding-lg: 56px;
 }
 
 * {
@@ -12,5 +12,18 @@
 }
 
 body {
-  background-color: var(--bgc);
+    background-color: var(--bgc);
+}
+
+.white-link {
+    color: var(--text-primary)
+}
+
+.header__link {
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
 }
