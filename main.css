@@ -1,5 +1,16 @@
+:root {
+  --text-primary: #FFFFFF;
+  --bgc: #3B181E;
+  --max-w: 1920px;
+  --padding-lg: 56px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgc);
 }
