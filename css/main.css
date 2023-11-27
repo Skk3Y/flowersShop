@@ -91,6 +91,19 @@ a {
 .social-link:hover svg path {
   fill: var(--bgc);
 }
+.inst-link svg rect {
+    transition: fill .3s;
+}
+.inst-link svg circle {
+    transition: fill .3s;
+
+}
+.social-link:hover svg circle {
+    fill: var(--bgc);
+}
+.social-link:hover svg rect {
+    fill: var(--text-primary);
+}
 
 .header__content {
   display: flex;
