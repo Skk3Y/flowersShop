@@ -95,13 +95,17 @@ a {
     transition: fill .3s;
 }
 .inst-link svg circle {
-    transition: fill .3s;
+    transition: fill .3s, stroke .3s;
 
 }
-.social-link:hover svg circle {
+.inst-link:hover svg .c2 {
     fill: var(--bgc);
 }
-.social-link:hover svg rect {
+
+.inst-link:hover svg .c1 {
+  stroke: var(--bgc);
+}
+.inst-link:hover svg rect {
     fill: var(--text-primary);
 }
 
