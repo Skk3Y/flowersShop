@@ -195,6 +195,9 @@ a {
   .footer__list_text {
     gap: 20px;
   }
+  .footer_item a {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -212,11 +215,20 @@ a {
     font-size: 12px;
     letter-spacing: .24px;
   }
-  
+  .footer_item a {
+    font-size: 12px;
+  }
 }
 
 @media(max-width: 768px) {
   .header__nav {
     display: none;
+  }
+}
+
+@media(max-width: 400px) {
+  .footer__list_text {
+    flex-direction: column;
+    gap: 10px;
   }
 }
