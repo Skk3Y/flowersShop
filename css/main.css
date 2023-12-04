@@ -4,6 +4,7 @@
   --gray: rgba(255, 255, 255, 0.5);
   --max-w: 1920px;
   --padding-lg: 56px;
+  --padding: 20px;
 }
 
 * {
@@ -157,4 +158,11 @@ a {
   letter-spacing: 1.2px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+
+@media(max-width: 1400px) {
+  .container {
+    padding: 0 var(--padding);
+  }
 }
