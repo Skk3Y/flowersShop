@@ -181,6 +181,9 @@ a {
   display: block;
   text-align: center;
 }
+.whatssap-link svg {
+  color :#ffffff;
+}
 
 
 @media(max-width: 1400px) {
