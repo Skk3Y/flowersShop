@@ -154,8 +154,22 @@ svg {
   width: 40px;
 }
 
-.footer {
+.present-card__header {
+  border-radius: 8px;
+  background: #262835;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
+.present-card__logo {
+  max-width: 240px;
+  align-self: center;
+}
+.present-card__number {
+  align-self: flex-end;
+}
+
 
 .footer__content {
   display: flex;
