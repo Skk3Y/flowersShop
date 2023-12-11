@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100svh;
+  color: var(--text-primary);
   background-color: var(--bgc);
 }
 
@@ -31,6 +32,10 @@ ol {
 
 a {
   text-decoration: none;
+}
+
+svg {
+  display: block;
 }
 
 .container {
@@ -76,6 +81,7 @@ a {
 }
 
 .social-link {
+  display: block;
 }
 
 .social-link svg rect {
@@ -181,8 +187,29 @@ a {
   display: block;
   text-align: center;
 }
+
+.whatssap-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--text-primary);
+  border-radius: 4px;
+  transition: background .3s ease;
+}
 .whatssap-link svg {
-  color :#ffffff;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.whatssap-link:hover {
+  background: var(--text-primary);
+}
+
+.whatssap-link:hover svg path {
+  fill: var(--bgc);
 }
 
 
